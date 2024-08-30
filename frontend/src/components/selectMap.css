@@ -1,0 +1,120 @@
+.selectMapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.map-title {
+  align-self: flex-start;
+  margin: 10px 0px 0 300px;
+}
+
+.selectMapContainer .selectLabel {
+  background-color: #fff3cd;
+  border-radius: 8px;
+  padding: 8px 10px 0 12px;
+  margin-right: 10px;
+  width: 150px;
+  height: 25px;
+  background-color: #e8e8e8;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.selectMapContainer .selectRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.selectMapContainer select {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+}
+
+.selectMapContainer img {
+  max-width: 100%;
+  max-height: 600px;
+  margin-top: 20px;
+}
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #4b2e83;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #4b2e83;
+}
+
+.map-container {
+  position: relative;
+  display: inline-block;
+}
+
+.map-image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.clickable-area {
+  position: absolute;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.clickable-area.meetingroom {
+  background: rgba(139, 188, 226, 0.4);
+  border-radius: 5px;
+}
+
+.clickable-area.desk {
+  background: rgba(104, 200, 116, 0.3);
+  border-radius: 3px;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.legend-color.meetingroom {
+  background: rgba(159, 212, 253, 0.3);
+  border: 1px solid #9fd4fd;
+}
+
+.legend-color.desk {
+  background: rgba(123, 225, 136, 0.3);
+  border: 1px solid #7be188;
+}

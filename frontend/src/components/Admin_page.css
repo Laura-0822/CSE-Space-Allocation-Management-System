@@ -1,0 +1,223 @@
+.admin-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.admin-sidebar {
+  background-color: #442675;
+  color: white;
+  padding: 20px;
+  width: 260px;
+  transition: width 0.1s, left 0.1s;
+  position: fixed;
+  height: 100%;
+  z-index: 50;
+}
+.admin-top-bar {
+  background-color: #fadc19;
+  height: 25px;
+  padding: 20px 20px;
+  width: calc(100% - 250px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 270px;
+  transition: left 0.3s;
+  z-index: 10;
+}
+
+.admin-sidebar.closed {
+  width: 0;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.admin-sidebar h1 {
+  margin: 10px 0 10px 0;
+}
+
+.admin-sidebar button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  height: 55px;
+}
+
+.admin-sidebar button img {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.admin-sidebar button:hover {
+  background-color: #5a148a;
+}
+
+.admin-top-bar.closed {
+  left: 0;
+  width: 100%;
+}
+
+.admin-top-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.admin-closebar {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.admin-right-button {
+  margin-left: auto;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 70px;
+  transition: margin-left 0.3s;
+  margin-left: 270px;
+}
+
+.admin-top-bar.closed {
+  left: 0;
+  width: 100%;
+}
+
+.admin-top-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.admin-user {
+  margin-left: auto;
+  margin-right: 60px;
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-user img {
+  width: 40px;
+  height: 40px;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 70px;
+  transition: margin-left 0.3s;
+  margin-left: 270px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 100px;
+  margin-right: 45px;
+}
+
+.dropdown-menu button {
+  font-size: 15px;
+  color: #6b7785;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background-color: #f1f1f1;
+}
+
+.admin-message {
+  margin: 0 0 0 5px;
+  width: 50px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-message img {
+  width: 40px;
+  height: 40px;
+}
+.admin-notification {
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-notification img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.arco-badge {
+  margin-right: 10px;
+}
+.admin-chatbox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.chatbox-container {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 1001;
+}
+.admin-sidebar {
+  z-index: 1000;
+}
+.admin-top-bar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

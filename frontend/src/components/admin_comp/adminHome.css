@@ -1,0 +1,58 @@
+.home-content h1 {
+  margin: 20px 0 40px 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 40px;
+}
+
+.button-style {
+  min-width: 280px;
+  height: 65px;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.button-style:hover {
+  transform: translateY(-5px);
+}
+
+.recent-appointment {
+  margin: 25px 35px;
+}
+
+.admin-page .arco-table td {
+  background-color: #f7f8fa !important;
+}
+
+.admin-page .arco-table td:hover {
+  background-color: #e5e6eb !important;
+}
+
+.admin-page .arco-table thead th {
+  background-color: #e5e6eb !important;
+}
+
+.user-table {
+  margin: 15px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arco-table thead th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.arco-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
